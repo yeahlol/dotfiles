@@ -1,0 +1,17 @@
+atom-beautify@0.30.6
+autocomplete-paths@2.12.2
+autocomplete-ruby@0.2.8
+file-icons@1.7.20
+highlight-selected@0.11.2
+intellij-idea-keymap@0.2.3
+japanese-menu@1.14.0
+linter@2.0.0
+linter-ruby@1.2.6
+linter-ui-default@1.2.4
+markdown-preview-plus@2.4.0
+minimap@4.25.7
+minimap-autohide@0.10.1
+project-manager@3.3.5
+tree-view-git-status@1.5.0
+
+
