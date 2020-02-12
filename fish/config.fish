@@ -11,6 +11,7 @@ eval (goenv init - | source)
 alias dc='docker-compose'
 alias dot='cd ~/dotfiles'
 alias tree='tree -C'
+alias cat='bat'
 alias f='open .'
 alias ..='cd ..'
 alias ...='cd ../..'
