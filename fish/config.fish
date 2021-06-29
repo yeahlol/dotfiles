@@ -1,5 +1,5 @@
 # goenv
-set -x GOROOT (go env GOROOT)
+set -x GOROOT $HOME/.goenv
 set -x GOPATH $HOME/.go
 set -x PATH $PATH $GOPATH/bin
 set -x PATH $HOME/.goenv/bin $PATH
