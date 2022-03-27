@@ -10,10 +10,6 @@ eval (goenv init - | source)
 # alias
 alias dc='docker-compose'
 alias dot='cd ~/dotfiles'
-alias tree='tree -C'
-alias f='open .'
-alias ..='cd ..'
-alias ...='cd ../..'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
