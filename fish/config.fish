@@ -1,6 +1,9 @@
+# brew
+set -g -x PATH $PATH /opt/homebrew/bin
+
 # goenv
 set -x GOROOT $HOME/.goenv
-set -x GOPATH $HOME/.go
+set -x GOPATH $HOME/go
 set -x PATH $PATH $GOPATH/bin
 set -x PATH $HOME/.goenv/bin $PATH
 set -x GO111MODULE on
