@@ -13,6 +13,9 @@ eval (goenv init - | source)
 # rbenv
 status --is-interactive; and rbenv init - fish | source
 
+# jenv
+status --is-interactive; and source (jenv init -|psub)
+
 # alias
 alias dc='docker-compose'
 alias dot='cd ~/dotfiles'
