@@ -10,6 +10,9 @@ set -x GO111MODULE on
 set -x GOENV_SHELL fish
 eval (goenv init - | source)
 
+# rbenv
+status --is-interactive; and rbenv init - fish | source
+
 # alias
 alias dc='docker-compose'
 alias dot='cd ~/dotfiles'
